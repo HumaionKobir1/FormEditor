@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
+import FormEditor from "../pages/EditorForm";
 
 const router = createBrowserRouter([
     {
       path: "/",
-      element: <div className="text-center">Hello world!</div>,
+      element: <FormEditor></FormEditor>
     },
   ]);
-
   export default router;
